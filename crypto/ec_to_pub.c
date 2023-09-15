@@ -1,8 +1,8 @@
 #include "hblk_crypto.h"
 /**
- * ec_to_pub- dunction 
+ * ec_to_pub- finction
  * @key: the key
- * @pub: the public key 
+ * @pub: the public key
  *Return: the key
  */
 uint8_t *ec_to_pub(EC_KEY const *key, uint8_t pub[EC_PUB_LEN])
