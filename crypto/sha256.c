@@ -4,7 +4,7 @@
  * sha256- secure hash alogrithme 256
  *
  * @s: the string
- * @len: the length 
+ * @len: the length
  * @digest: the buffer
  * Return: the hash algorithme
  */
