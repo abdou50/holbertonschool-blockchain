@@ -1,10 +1,10 @@
 #include "blockchain.h"
 /**
- * block_create-creates a new block depeden of prev block
- * @prev: the pointer to prev block
- * @data: the pointer to data of new block
- * @data_len: length of data
- * Return:block_t if successful otherwise rturn NULL
+ * block_create-creates a new block
+ * @prev:prev block
+ * @data:data of new block
+ * @data_len: length
+ * Return:block_t if successful
  */
 block_t *block_create(block_t const *prev,
 		int8_t const *data, uint32_t data_len)
